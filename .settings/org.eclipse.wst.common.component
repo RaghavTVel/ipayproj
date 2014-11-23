@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ipayproj">
+        <wb-resource deploy-path="/" source-path="/apps/ipayappl/common"/>
+        <wb-resource deploy-path="/" source-path="/apps/ipayappl/android"/>
+        <property name="context-root" value="ipayproj"/>
+    </wb-module>
+</project-modules>

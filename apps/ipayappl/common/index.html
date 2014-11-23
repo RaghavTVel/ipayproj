@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>ipayappl</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    		<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+    		<link href="jqueryMobile/jquery.mobile-1.3.2.css" rel="stylesheet">
+    		<link href="jqueryMobile/jquery.mobile.theme-1.3.2.css" rel="stylesheet">
+    		<link rel="stylesheet" href="css/main.css">
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<script src="jqueryMobile/jquery.mobile-1.3.2.js"></script>
+    	</head>
+    	
+    <body>
+    <div data-role="page" id="page1">
+    			<div data-role="content" style="color: black; background-color: white; position: relative">
+    				<!--application UI goes here-->
+    				
+			<!-- <textarea id="textarea0" style="margin-left: -20px; background-color: red; color: white; border-right-width: -30; position: relative; margin-bottom: -10px; font-size: x-large; margin-top: -10px; top: -10px; margin-right: 20px; right: -10px; left:" readonly>I-Pay</textarea> -->
+			<!-- <textarea id="textarea1" style="position: relative; color: black; background-color: white; border-style: none; text-align: center; margin-top: 200px;;">Easiest way to pay friends and family!</textarea> -->
+
+			<marquee behavior="alternate">I-Pay</marquee>
+			<br><br><br><br><br><br><br><br><br>
+			<h5 align="center">Easiest way to pay friends and family</h5>
+			<a href="#page2" data-role="button" id="button" data-corners="false" style="position: relative; margin-top: 200px">Signin</a>
+			<br><br><br><br>					
+		</div>				
+	</div>
+	
+		
+	<div data-role="page" id="page2">
+    	<div data-role="content" style="color: black; background-color: white; position: relative">
+    				<!--application UI goes here-->
+    				
+			<!-- <textarea id="textarea0" style="margin-left: -20px; background-color: red; color: white; border-right-width: -30; position: relative; margin-bottom: -10px; font-size: x-large; margin-top: -10px; top: -10px; margin-right: 20px; right: -10px; left:" readonly>I-Pay</textarea> -->
+			<!-- <textarea id="textarea1" style="position: relative; color: black; background-color: white; border-style: none; text-align: center; margin-top: 200px;;">Easiest way to pay friends and family!</textarea> -->
+
+			<marquee behavior="alternate">I-Pay</marquee>
+			<br><br><br><br><br><br>
+			<h5 align="center">Enter your credentials</h5>
+
+			<form name="form1" method="post" action="">
+			<p align="center"><strong>Mobile Number: </strong>
+			<input type="text" name= "user1" id="user1">
+			<p align="center"><strong>Password: </strong>
+			<input type="password" name= "pass1" id="pass1">
+			<br><br> 
+			<input type="submit" value="Submit" id="submit1" name="submit1">
+			<br><br>
+			</form>
+		</div>				
+	</div>
+	
+	
+	<div data-role="page" id="page3">
+		<div data-role="content" style="color: black; background-color: white; position: relative">
+		<marquee behavior="alternate">I-Pay</marquee>
+		<br><br><br><br><br><br><br><br><br><br><br>
+		<a href="#page4" data-role="button" id="button" data-corners="false">Contacts</a>
+		<a href="#page5" data-role="button" id="button" data-corners="false">Recharge wallet</a>
+		<br><br><br><br><br><br><br><br><br>
+		</div>
+	</div>			
+	
+	<div data-role="page" id="page4">
+		<div data-role="content" style="color: black; background-color: white; position: relative">
+		<marquee behavior="alternate">I-Pay</marquee>
+		<br><br><br><br><br><br><br>
+			<ul data-role="listview" id="listview" data-inset="true">
+				<li data-role="list-divider" id="divider">Contacts</li>
+				<li id="listitem1"><a href="#page6">AAA</a></li>
+				<li id="listitem2"><a href="#page6">BBB</a></li>
+				<li id="listitem3"><a href="#page6">CCC</a></li>
+			</ul>
+			<br><br><br><br><br><br><br><br>
+		</div>
+	</div>
+	
+	<div data-role="page" id="page5">
+		<div data-role="content" style="color: black; background-color: white; position: relative">
+		<marquee behavior="alternate">I-Pay</marquee>
+		<br><br><br><br>
+		<form name="form3" method="post" action="">
+			<p align="center"><strong>Amount: </strong>
+			<input type="number" name= "amount3" id="amount3">
+			<p align="center"><strong>Card Number: </strong>
+			<input type="number" name= "cardnumber3" id="cardnumber3">
+			<p align="center"><strong>Name on the card: </strong>
+			<input type="text" name= "name3" id="name3">
+			<p align="center"><strong>CVV: </strong>
+			<input type="password" name= "cvv3" id="cvv3">
+			<br><br> 
+			<input type="submit" value="Recharge Wallet Now!" id="submit3" name="submit3">
+			<br><br>
+			</form>
+		<br><br><br><br><br><br><br>
+		</div>
+	</div>
+	
+	<div data-role="page" id="page6">
+		<div data-role="content" style="color: black; background-color: white; position: relative">
+		<marquee behavior="alternate">I-Pay</marquee>
+		<br><br><br><br><br><br>
+		<form name="form2" method="post" action="">
+			<p align="center"><strong>Amount: </strong>
+			<input type="number" name= "amount2" id="amount2">
+			<p align="center"><strong>Password: </strong>
+			<input type="password" name= "pass2" id="pass2">
+			<p align="center"><strong>Message: </strong>
+			<input type="text" name= "message2" id="message2">
+			<br><br> 
+			<input type="submit" value="Pay!" id="submit2" name="submit2">
+			<br><br>
+			</form>
+		<br><br><br><br><br><br><br>
+		</div>
+	</div>
+	
+			<script src="js/userpasscheck.js"></script>
+			<script src="js/paymentcheck.js"></script>
+			<script src="js/rechargecheck.js"></script>
+    		<script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    		
+    </body>
+</html>
