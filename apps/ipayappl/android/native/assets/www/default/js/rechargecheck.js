@@ -5,14 +5,14 @@
  */
 
 $("#submit3").on("tap",function(){
-   if(($("#cardnumber3").val())==123456&&($("#cvv3").val())==789&&($("#amount3").val())<=100)
+   if(($("#cardnumber3").val())==1234123412341234&&($("#cvv3").val())==789&&($("#amount3").val())<=100)
 	   {
 	   		alert("Payment to Wallet successful!!!");
 	   		//$.mobile.navigate("#page3");
 	   }
    else
 	   {
-	   		if(($("#cardnumber3").val())==123456&&($("#cvv3").val())==789&&($("#amount3").val())>100)
+	   		if(($("#cardnumber3").val())==1234123412341234&&($("#cvv3").val())==789&&($("#amount3").val())>100)
 	   		{
 	   			alert("Not enough amount in the account!!!");
 	   		}

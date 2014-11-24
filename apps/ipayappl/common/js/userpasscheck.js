@@ -50,7 +50,7 @@ $("#submit1").on("tap",function(){
    /*alert($("#user").val());
    alert($("#pass").val());*/
 	
-   if(($("#user1").val())=="100"&&($("#pass1").val())=="1234")
+   if(($("#user1").val())=="9876543210"&&($("#pass1").val())=="1234")
 	   {
 	   		$.mobile.navigate("#page3");
 	
